@@ -69,9 +69,13 @@ body {
     text-align: center;
 }
 
-#newGame-btn {
+#newGame-container {
     text-align: center;
-    max-width: 200px;
-    height: 70px;
+    justify-content: center;
     margin-top: 26px;
+}
+
+#newGame-btn {
+    width: 16%;
+    height: 70px;
 }
