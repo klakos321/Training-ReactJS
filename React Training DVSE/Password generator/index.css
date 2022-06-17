@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     background: #1F2937;
@@ -14,17 +13,20 @@ body {
 #psw-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .psw-box {
     background-color: #273549;
-    width: 210px;
-    height: 40px;
+    height: fit-content;
+    width: fit-content;
+    min-width: 200px;
+    min-height: 20px;
     border-radius: 6px;
     text-align: center;
     color: #10B981;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 h1 {
@@ -47,6 +49,11 @@ h1 {
     margin: 115px auto auto 35px;
 }
 
+#top-container > div > label {
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
 #gen-btn {
     background-color: #10B981;
     color: #ffffff;
@@ -54,7 +61,8 @@ h1 {
     border-radius: 6px;
     width: 191px;
     height: 42px;
-    margin-top: 50px;
+    margin-bottom: 1%;
+    margin-top: 1%;
 
     font-family: 'Inter';
     font-style: normal;

@@ -6,12 +6,17 @@ const characters = [
 ];
 //characters.length == 91
 
-let passwordLen = 15
-
 function generatePassword() {
+    let passwordLength = document.getElementById("psw-length-input").value
+    if(passwordLength < 15) {
+        passwordLength = 15
+    }
+    if(passwordLength > 35) {
+        passwordLength = 35
+    }
     let password1 = ""
     let password2 = ""
-    for(let i = 0; i < passwordLen*2; i++) {
+    for(let i = 0; i < passwordLength*2; i++) {
         let newCharacter = Math.floor(Math.random() * characters.length)
         if(i%2 == 0){
             password1 += characters[newCharacter]

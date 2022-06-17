@@ -8,7 +8,12 @@
         <div id="top-container">
             <h1><b>Generate a <br><span style="color: #10B981">random password</span></b></h1>
             <p>Never use an insecure password again.</p>
+            <div style="margin-top: 1%;">
+                <label>Password Length(15-35): </label>
+                <input id="psw-length-input" type="number" min="15" max="35" value="15"><br>
+            </div>
             <button id="gen-btn" onclick="generatePassword()">Generate passwords</button>
+            
         </div>
         <hr id="line">
         <div id="psw-container">
