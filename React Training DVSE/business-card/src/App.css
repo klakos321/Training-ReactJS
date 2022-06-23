@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+.MainContainer {
+  margin: 0;
+  background-color: #DEE4E7;
+  display: flex;
+  justify-content: center;
+  font-family: Inter, sans-serif;
+  color: white;
+}
+
+.ContentContainer {
+  width: 30em;
+  margin: 2em;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2em;
+  background-color: #3d924c;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr.divider {
+  border-top: 2px solid #000;
+  border-radius: 5px;
+  width: 90%;
+  margin: 1em 0;
+}
+
+h2 {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

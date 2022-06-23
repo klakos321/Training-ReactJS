@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.social-btn {
+    width: 15%;
+    height: 150%;
+    border: 0;
+    border-radius: 1em;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    cursor: pointer;
+    background-color: gold;
+    transform: scale(1.2)
+}
